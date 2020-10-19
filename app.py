@@ -11,7 +11,7 @@ while True:
   
   for each_word in list_of_words:
     
-    if each_word == "sad":
+    if each_word == "just miserable":
       feelings_list.append("sad")
       encouragement_list.append("tomorrow will be a better day, cry if you have to it's okay to be vulnerable at times")
       counter += 1
