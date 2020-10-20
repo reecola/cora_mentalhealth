@@ -27,6 +27,10 @@ while True:
       feelings_list.append("alone")
       encouragement_list.append("you are NOT facing this alone you have people who CARE about YOU we're in this TOGETHER!! remember that please ")
       counter += 1
+    if each_word == "frustrated":
+      feelings_list.append("frustrated")
+      encouragement_list.append("keep calm and don't give up!")
+      counter += 1
       
   if counter == 0:
     
