@@ -17,7 +17,7 @@ while True:
       counter += 1
     if each_word == "lost":
       feelings_list.append("lost")
-      encouragement_list.append("i understand that you're going through a tough time now and it's okay to feel lost at time, maybe it's just time to take a rest and focus on yourself")
+      encouragement_list.append("i understand that you're going through a tough time now and it's okay to feel lost at times, maybe it's just time to take a rest and focus on yourself")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
@@ -25,11 +25,15 @@ while True:
       counter += 1
     if each_word == "alone":
       feelings_list.append("alone")
-      encouragement_list.append("you are NOT facing this alone you have people who CARE about YOU we're in this TOGETHER!! remember that please ")
+      encouragement_list.append("you are NOT facing this alone you have people who CARE about YOU we're in this TOGETHER!! remember that :) ")
       counter += 1
     if each_word == "frustrated":
       feelings_list.append("frustrated")
       encouragement_list.append("keep calm and don't give up!")
+      counter += 1
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("Take a deep breath. All will be fine! :)")
       counter += 1
       
   if counter == 0:
