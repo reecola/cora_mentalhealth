@@ -35,6 +35,18 @@ while True:
       feelings_list.append("stressed")
       encouragement_list.append("Take a deep breath. All will be fine! :)")
       counter += 1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append(" Calm yourself down and think thoroughly. Do not make decisions that you'll regret in a fit of anger")
+      counter += 1
+    if each_word == "happy":
+      feelings_list.append("happy")
+      encouragement_list.append("That's the way to go! Keep smiling")
+      counter += 1
+    if each_word == "embarrassed":
+      feelings_list.append("embarrassed")
+      encouragement_list.append("Embarrassment is just a moment. We've all been there before.")
+      counter += 1
       
   if counter == 0:
     
