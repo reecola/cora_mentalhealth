@@ -39,6 +39,10 @@ while True:
       feelings_list.append("devasted")
       encouragement_list.append("Bad times would pass!")
       counter += 1
+    if each_word == "useless":
+      feelings_list.append("that life is pointless")
+      encouragement_list.append("don't give up! it is always darkest before dawn!")
+      counter += 1
   if counter == 0:
     
       output = "sorry I don't really understand. please use different words?"
