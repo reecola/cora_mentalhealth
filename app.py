@@ -40,10 +40,14 @@ while True:
       encouragement_list.append("Bad times would pass!")
       counter += 1
     if each_word == "useless":
-      feelings_list.append("that life is pointless")
+      feelings_list.append("useless")
       encouragement_list.append("don't give up! it is always darkest before dawn!")
       counter += 1
-  if counter == 0:
+    if each_word == "scared":
+      feelings_list.append("scared")
+      encouragement_list.append("sending you a virtual hug, know you arent alone")
+        
+    if counter == 0:
     
       output = "sorry I don't really understand. please use different words?"
 
