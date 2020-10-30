@@ -46,6 +46,9 @@ while True:
     if each_word == "scared":
       feelings_list.append("scared")
       encouragement_list.append("sending you a virtual hug, know you arent alone")
+   if each_word == "insecure":
+      feelings_list.append("insecure")
+      encouragement_list.append("you're beautiful the way you are, don't doubt yourself")   
         
     if counter == 0:
     
